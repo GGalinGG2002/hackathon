@@ -7,9 +7,9 @@ $email = $_POST['email'];
 $mesaj = $_POST['mesaj'];
 $sql = "INSERT INTO contact (nume,email,mesaj) VALUES ('$nume','$email','$mesaj')";
 $result = mysqli_query($conectare,$sql);
-header("Location: ../contact.php?info=ok");
+header("Location: ../about.php?info=ok");
 }
 else
 {
-	header("Location: ../contact.php?info=eroare");
+	header("Location: ../about.php?info=eroare");
 }
