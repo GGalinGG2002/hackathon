@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SatData</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      .input-style{
+          color:white;
+          outline:2px;
+          outline-color:white;
+          background-color:black;
+      }
+      .paragraph-style{
+        color:white;
+      }
+    </style>
+    <script language="JavaScript">
+ 
+        function INIT(){
+        for(i=0;i<4;i++)
+         with(document.forms.test) 
+          {
+           cerinte1[i].style.backgroundColor="white";    cerinte1[i].style.width="600";
+           cerinte2[i].style.backgroundColor="white";    cerinte2[i].style.width="600";
+           cerinte3[i].style.backgroundColor="white";    cerinte3[i].style.width="600";
+         cerinte4[i].style.backgroundColor="white";    cerinte4[i].style.width="600";
+         cerinte5[i].style.backgroundColor="white";    cerinte5[i].style.width="600";
+         cerinte6[i].style.backgroundColor="white";    cerinte6[i].style.width="600";
+         cerinte7[i].style.backgroundColor="white";    cerinte7[i].style.width="600";
+         cerinte8[i].style.backgroundColor="white";    cerinte8[i].style.width="600";
+         cerinte9[i].style.backgroundColor="white";    cerinte9[i].style.width="600";
+         cerinte10[i].style.backgroundColor="white";    cerinte10[i].style.width="600";
+          }
+         document.forms.test.nota.style.backgroundColor="white"; 
+        } 
+       
+       function PUNCTAJ()
+       {
+        k=0
+        with(document.forms.test)
+        {
+         cerinte1[1].style.color='green';  cerinte1[1].style.fontWeight='bold';
+         cerinte2[0].style.color='green';  cerinte2[0].style.fontWeight='bold';
+         cerinte3[1].style.color='green';  cerinte3[1].style.fontWeight='bold';
+         cerinte4[3].style.color='green';  cerinte4[3].style.fontWeight='bold';
+         
+         cerinte5[1].style.color='green';  cerinte5[1].style.fontWeight='bold';
+         cerinte6[1].style.color='green';  cerinte6[1].style.fontWeight='bold';
+         cerinte7[3].style.color='green';  cerinte7[3].style.fontWeight='bold';
+         cerinte8[0].style.color='green';  cerinte8[0].style.fontWeight='bold';
+         cerinte9[2].style.color='green';  cerinte9[2].style.fontWeight='bold';
+         cerinte10[0].style.color='green';  cerinte10[0].style.fontWeight='bold';
+         }
+       
+       for(i=0;i<4;i++)    // intrebarea 1 - raspuns corect B
+        if(document.forms.test.raspuns1[i].checked==true)
+         if(i==1) k=k+10   
+           else{document.forms.test.cerinte1[i].style.color='red' 
+              document.forms.test.cerinte1[i].style.textDecoration='line-through'}
+       
+       for(i=0;i<4;i++)  //intrebarea 2 - raspuns corect a
+          if(document.forms.test.raspuns2[i].checked==true)
+            if(i==0) k=k+10   
+             else{document.forms.test.cerinte2[i].style.color='red'
+                  document.forms.test.cerinte2[i].style.textDecoration='line-through'}         
+       
+       for(i=0;i<4;i++)  // intrebarea 3 - raspuns corect b
+          if(document.forms.test.raspuns3[i].checked==true)
+            if(i==1) k=k+10   
+             else{document.forms.test.cerinte3[i].style.color='red'
+                  document.forms.test.cerinte3[i].style.textDecoration='line-through'}
+       
+       for(i=0;i<4;i++)  // intrebarea 4 - raspuns corect d
+          if(document.forms.test.raspuns4[i].checked==true)
+            if(i==3) k=k+10   
+             else{document.forms.test.cerinte4[i].style.color='red'
+                document.forms.test.cerinte4[i].style.textDecoration='line-through'}
+       
+       for(i=0;i<4;i++)  // intrebarea 5 - raspuns corect b
+          if(document.forms.test.raspuns5[i].checked==true)
+            if(i==1) k=k+10  
+             else{document.forms.test.cerinte5[i].style.color='red'
+                  document.forms.test.cerinte5[i].style.textDecoration='line-through'}
+              for(i=0;i<4;i++)  // intrebarea 6 - raspuns corect b
+          if(document.forms.test.raspuns6[i].checked==true)
+            if(i==1) k=k+10   
+             else{document.forms.test.cerinte6[i].style.color='red'
+                  document.forms.test.cerinte6[i].style.textDecoration='line-through'}
+              for(i=0;i<4;i++)  // intrebarea 7 - raspuns corect b
+          if(document.forms.test.raspuns7[i].checked==true)
+            if(i==3) k=k+10   
+             else{document.forms.test.cerinte7[i].style.color='red'
+                  document.forms.test.cerinte7[i].style.textDecoration='line-through'}
+              for(i=0;i<4;i++)  // intrebarea 8 - raspuns corect b
+          if(document.forms.test.raspuns8[i].checked==true)
+            if(i==0) k=k+10   
+             else{document.forms.test.cerinte8[i].style.color='red'
+                  document.forms.test.cerinte8[i].style.textDecoration='line-through'}
+              for(i=0;i<4;i++)  // intrebarea 9 - raspuns corect b
+          if(document.forms.test.raspuns9[i].checked==true)
+            if(i==2) k=k+10   
+             else{document.forms.test.cerinte9[i].style.color='red'
+                  document.forms.test.cerinte9[i].style.textDecoration='line-through'}
+              for(i=0;i<4;i++)  // intrebarea 10 - raspuns corect b
+          if(document.forms.test.raspuns10[i].checked==true)
+            if(i==0) k=k+10   
+             else{document.forms.test.cerinte10[i].style.color='red'
+                  document.forms.test.cerinte10[i].style.textDecoration='line-through'}
+         document.forms.test.nota.value="Ati obtinut "+k+" puncte";
+         document.forms.test.nota.style.color='orange';
+         document.forms.test.nota.style.fontWeight='bold';
+       }  
+        </script>
+  </head>
+  <body>
+    <div class="page">
+		<nav id="colorlib-main-nav" role="navigation">
+			<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+			<div class="js-fullheight colorlib-table">
+				<div class="img" style="background-image: url(images/author-2.jpg);"></div>
+				<div class="row no-gutters">
+					<div class="col-md-12 text-center">
+					<h1 class="mb-4"><a href="index.html" class="logo"><b>SatData</b></a></h1>
+					<ul>
+              <li><a href="index.html"><span>The Globe</span></a></li>
+              <li><a href="satellites.html"><span>NASA`s Satellites</span></a></li>
+              <li><a href="locations.php"><span>Locations</span></a></li>
+			  
+                        <li><a href="gallery.html"><span>Gallery</span></a></li>
+              <li class="active"><a href="tests.html"><span>Test Yourself</span></a></li>					
+              <li><a href="about.php"><span>About Us</span></a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+  		</nav>
+    
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="colorlib-navbar-brand">
+                <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url(images/person_1.png);"></span>SatData</a>
+              </div>
+              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </div>
+        </div>
+      </header>    
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+      <hr>
+    <center><h1>Validate your Knowledge!</h1></center>
+        <section class="ftco-section">
+          <div class="container">
+            <div class="row row-pb-lg">
+                <div class="col-md-12 animate-box">
+                  <div class="classes class-single">
+                    <div class="desc desc2">
+                      <FORM NAME="test" METHOD="post">
+  
+ <p class="paragraph-style">1.What`s the type of the satellite TEMPEST-D?</p><br>
+  
+  <input name="raspuns1" type="radio"><input class="input-style" style="width:670px;" type="text" readonly name="cerinte1" value="a.Orbiter"><br>
+  <input name="raspuns1" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte1" value="b.Orbiter, Technology Demonstration" ><br>
+  <input name="raspuns1" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte1" value="c.Technology Demonstration"><br>
+  <input name="raspuns1" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte1" value="d.Instrument"><br><br>
+  
+  <p class="paragraph-style">2.When did OPALS launch?<br></p>
+  
+  <input name="raspuns2" type="radio"><input class="input-style"style="width:670px;" name="cerinte2" readonly type="text" value="a.April 18, 2014"><br>
+  <input name="raspuns2" type="radio"><input class="input-style"style="width:670px;" name="cerinte2" readonly type="text" value="b.May 22, 2018"><br>
+  <input name="raspuns2" type="radio"><input class="input-style"style="width:670px;" name="cerinte2" readonly type="text" value="c.August 14, 2017"><br>
+  <input name="raspuns2" type="radio"><input class="input-style"style="width:670px;" name="cerinte2" readonly type="text" value="d.January 31, 2015"><br><br>
+  
+  
+  <p class="paragraph-style">3.Where was IPEX launched from?<br></p>
+  
+  <input name="raspuns3" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte3" value="a.Wallops Island, Virginia"><br>
+  <input name="raspuns3" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte3" value="b.Vandenberg Air Force Base, California"><br>
+  <input name="raspuns3" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte3" value="c.Kennedy Space Center, Florida"><br>
+  <input name="raspuns3" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte3" value="d.Moscow, Russia"><br><br>
+  
+  
+  <p class="paragraph-style">4.How many wavelengths doar AIRS observe?<br></p>
+  
+  <input name="raspuns4" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte4" value="a.2"><br>
+  <input name="raspuns4" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte4" value="b.1923"><br>
+  <input name="raspuns4" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte4" value="c.76849"><br>
+  <input name="raspuns4" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte4" value="d.2378"><br><br>
+  
+  <p class="paragraph-style">5.Which one of these is NOT a satellite?<br></p>
+  
+  <input name="raspuns5" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte5" value="a.CloudSat"><br>
+  <input name="raspuns5" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte5" value="b.AGLET"><br>
+  <input name="raspuns5" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte5" value="c.MLS"><br>
+  <input name="raspuns5" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte5" value="d.MISR"><br><br>
+  
+  <p class="paragraph-style">6.How many detailed global measurements is OCO-2 gathering everyday?<br></p>
+  
+  <input name="raspuns6" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte6" value="a.21"><br>
+  <input name="raspuns6" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte6" value="b.Around 100,000"><br>
+  <input name="raspuns6" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte6" value="c.41968"><br>
+  <input name="raspuns6" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte6" value="d.10 on average"><br><br>
+  
+  <p class="paragraph-style">7.Which satellite launched first?</p><br>
+  
+  <input name="raspuns7" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte7" value="a.TEMPEST-D"><br>
+  <input name="raspuns7" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte7" value="b.CLOUDSAT"><br>
+  <input name="raspuns7" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte7" value="c.AIRS"><br>
+  <input name="raspuns7" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte7" value="d.SeaWinds"><br><br>
+  
+  <p class="paragraph-style">8.What does "MLS" stand for?</p><br>
+  
+  <input name="raspuns8" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte8" value="a.Microwave Limb Sounder"><br>
+  <input name="raspuns8" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte8" value="b.Meteorologic Large Satellite"><br>
+  <input name="raspuns8" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte8" value="c.Metric Lenght Satellite"><br>
+  <input name="raspuns8" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte8" value="d.Meteoric Lenght Senson"><br><br>
+  
+  <p class="paragraph-style">9.How many of these satellites are currently active?<br></p>
+  
+  <input name="raspuns9" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte9" value="a.Half"><br>
+  <input name="raspuns9" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte9" value="b.15"><br>
+  <input name="raspuns9" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte9" value="c.All"><br>
+  <input name="raspuns9" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte9" value="d.8"><br><br>
+  
+  <p class="paragraph-style">10.When did the first NASA Earth-observing satellite launch?<br></p>
+  
+  <input name="raspuns10" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte10" value="a.1999"><br>
+  <input name="raspuns10" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte10" value="b.2000"><br>
+  <input name="raspuns10" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte10" value="c.2003"><br>
+  <input name="raspuns10" type="radio"><input class="input-style"style="width:670px;" type="text" readonly name="cerinte10" value="d.1990"><br><br>
+  <br>
+  <input type="button" class="wp-form-control" value="Stop test" onclick="PUNCTAJ()" style="width:100px;">
+  <input type="text" readonly name="nota" class="wp-form-control" style="width:200px;">
+  </FORM> 
+                    </div>
+                  </div>
+                </div>
+              </div>          
+          </div>
+          </div>
+        </section>
+  
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
+          <div class="container">
+            <div class="row mb-5 justify-content-center">
+              <div class="col-md-5 text-center">
+                <div class="ftco-footer-widget">
+                  <h2 class="mb-3">Contact Us</h2>
+                  <p class="h3 email"><a href="#">satdata12@gmail.com</a></p>
+                </div>
+          <div class="ftco-footer-widget mb-5">
+                  <ul class="ftco-footer-social list-unstyled">
+                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+  
+               
+              </div>
+            </div>
+          </div>
+        </footer>
+  
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+  
+        </div>
+  
+      </div>
+  
+  
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>

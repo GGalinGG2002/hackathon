@@ -37,10 +37,10 @@
 					<h1 class="mb-4"><a href="index.html" class="logo">SatData</a></h1>
 					<ul>
                         <li><a href="index.html"><span>The Globe</span></a></li>
-                        <li><a href=""><span>Gallery</span></a></li>
-                        <li><a href="services.html"><span>NASA`s Satellites </span></a></li>
-                        <li><a href="portfolio.html"><span>Locations</span></a></li>
-                        <li><a href="blog.html"><span>Test Yourself</span></a></li>					
+                        <li><a href="satellites.html"><span>NASA`s Satellites </span></a></li>
+                        <li><a href="locations.php"><span>Locations</span></a></li>
+                        <li><a href="gallery.html"><span>Gallery</span></a></li>
+                        <li><a href="tests.html"><span>Test Yourself</span></a></li>					
                         <li class="active"><a href="about.php"><span>About Us</span></a></li>
 					</ul>
 					</div>
@@ -61,12 +61,13 @@
           </div>
         </div>
       </header>    
+	  <hr><hr><hr><hr>
       <section class="home-slider owl-carousel js-fullheight">
         <div class="slider-item js-fullheight">
           <div class="overlay"></div>
           <div class="container">
 				<div class="row d-flex my-5">
-						<div class="col-md-4 author-img" style="background-image: url(images/muje.jpg);" ></div>
+						<div class="col-md-4 author-img" style="background-image: url(images/nume.jpg);" ></div>
 						<div class="col-md-2"></div>
 						<div class="col-md-6 wrap ftco-animate">
 						  <div class="about-desc">
@@ -79,10 +80,10 @@
 								
 							  </ul>
 							  <h5>Personal Contact:</h5>
-							  <p>Email: <a href="#">teamaglet@gmail</a></p>
-							  <p>Phone 1: <a href="#">0754202373</a></p>
-							  <p>Phone 2: <a href="#">NumarDenis</a></p>
-							  <p>Phone 3: <a href="#">NumarClaudia</a></p>
+							  <p>Email: <a href="#">satdata12@gmail.com</a></p>
+							  <p>Phone 1: <a href="#">+40754202373</a></p>
+							  <p>Phone 2: <a href="#">+40770319161</a></p>
+							  <p>Phone 3: <a href="#">+40775187823</a></p>
 							</div>
 						  </div>
 						</div>
@@ -93,23 +94,6 @@
       <!-- END slider -->
 	  <section class="ftco-section about-section">
 			<div class="container">
-			  <div class="row d-flex my-5">
-				<div class="col-md-2"></div>
-				<div class="col-md-6 wrap ftco-animate">
-				  <div class="about-desc">
-					<h1 class="bold-text">About</h1>
-					<div class="p-5">
-					  <ul class="ftco-footer-social list-unstyled mt-4">
-					  </ul>
-					  <h5>Personal Contact:</h5>
-					  <p>Email: <a href="#">teamaglet@gmail</a></p>
-					  <p>Phone 1: <a href="#">+40754202373</a></p>
-					  <p>Phone 2: <a href="#">+40770319161</a></p>
-					  <p>Phone 3: <a href="#">+40775187823</a></p>
-					</div>
-				  </div>
-				</div>
-			  </div>
 			  <div class="row d-flex justify-content-end mt-5">
 				  <div class="col-md-10">
 	
@@ -242,7 +226,7 @@
 				  </div>
 				  <div class="ftco-footer-widget">
 					<h2 class="mb-3">Contact Us</h2>
-					<p class="h3 email"><a href="#">teamaglet@email.com</a></p>
+					<p class="h3 email"><a href="#">satdata12@email.com</a></p>
 				  </div>
 				</div>
 			  </div>

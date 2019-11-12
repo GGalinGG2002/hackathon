@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  padding: 20px;
+  font-family: Poppins;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+h4{
+	color:#1023b0;
+	text-align:center;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.nume{
+	margin-left:450px;
+}
+.active1{
+	background-color:blue;
+}
+</style>
+</head>
+<body>
+    <div class="page">
+<nav id="colorlib-main-nav" role="navigation">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle active"><i></i></a>
+            <div class="js-fullheight colorlib-table">
+              <div class="img" style="background-image: url(images/vv.jpg);"></div>
+                <div class="row no-gutters">
+                  <div class="col-md-12 text-center">
+                    <h1 class="mb-4"><a href="index.html" class="logo">SatData</a></h1>
+                    <ul>
+                        <li><a href="index.html"><span>The Globe</span></a></li>
+                        <li><a href="satellites.html"><span>NASA`s Satellites </span></a></li>
+                        <li><a href="locations.php"><span>Locations</span></a></li>
+						
+                        <li><a href="gallery.html"><span>Gallery</span></a></li>
+                        <li><a href="tests.html"><span>Test Yourself</span></a></li>							
+                        <li><a href="about.php"><span>About Us</span></a></li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+          </nav>
+    
+    <div id="colorlib-page">
+      <header>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="colorlib-navbar-brand">
+                <a class="colorlib-logo" href="index.html"><span class="logo-img" style="background-image: url(images/person_1.png);"></span>SatData</a>
+              </div>
+              <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+            </div>
+          </div>
+        </div>
+
+		<div id="myBtnContainer" class="justify-content-center nume">
+  <button class="btn" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('climate')"> Climate</button>
+  <button class="btn" onclick="filterSelection('earth')"> Destination: Earth Orbit</button>
+  <button class="btn" onclick="filterSelection('type')">Type: Orbiter</button>
+  <button class="btn" onclick="filterSelection('ins')">Type: Instruments</button>
+</div>
+
+      </header>
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+</div>
+<section  class="ftco-section">
+<div class="row">
+  <div class="column climate ins">
+    <div class="content">
+      <img src="images1/aster.jpg" alt="Climate" style="width:100%">
+      <h4>ASTER</h4>
+    </div>
+  </div>
+  <div class="column climate earth ins">
+    <div class="content">
+    <img src="images1/airs.jpg" alt="Climate" style="width:100%">
+      <h4>AIRS</h4>
+      
+    </div>
+  </div>
+  <div class="column climate earth type">
+    <div class="content">
+    <img src="images1/cloudsat.jpg" alt="Climate" style="width:100%">
+      <h4>Cloudsat</h4>
+      
+    </div>
+  </div>
+  <div class="column climate ins">
+    <div class="content">
+      <img src="images1/mls.jpg" alt="Climate" style="width:100%">
+      <h4>MLS</h4>
+      
+    </div>
+  </div>
+  <div class="column climate ins">
+    <div class="content">
+    <img src="images1/misr.jpg" alt="Climate" style="width:100%">
+      <h4>MISR</h4>
+      
+    </div>
+  </div>
+  <div class="column climate type">
+    <div class="content">
+    <img src="images1/oco-2.jpg" alt="Climate" style="width:100%">
+      <h4>OCO-2</h4>
+      
+    </div>
+  </div>
+
+  <div class="column climate ins">
+    <div class="content">
+      <img src="images1/seawinds.jpg" alt="Climate" style="width:100%">
+      <h4>SeaWinds</h4>
+      
+    </div>
+  </div>
+  <div class="column climate type">
+    <div class="content">
+    <img src="images1/smap.jpg" alt="Climate" style="width:100%">
+      <h4>SMAP</h4>
+     
+    </div>
+  </div>
+  <div class="column climate type">
+    <div class="content">
+    <img src="images1/jason3.jpg" alt="Climate" style="width:100%">
+      <h4>Jason-3</h4>
+      
+    </div>
+  </div>
+  <div class="column climate ins">
+    <div class="content">
+    <img src="images1/iss.jpg" alt="Climate" style="width:100%">
+      <h4>OCO-3</h4>
+     
+    </div>
+  </div>
+  <div class="column climate type">
+    <div class="content">
+    <img src="images1/asteria.jpg" alt="Climate" style="width:100%">
+      <h4>ASTERIA</h4>
+      
+    </div>
+  </div>
+  <div class="column climate earth type">
+    <div class="content">
+    <img src="images1/CubeRRT.png" alt="Climate" style="width:100%">
+      <h4>CubeRRT</h4>
+      
+    </div>
+  </div>
+  <div class="column climate earth type">
+    <div class="content">
+    <img src="images1/grifex.jpg" alt="Climate" style="width:100%">
+      <h4>GRIFEX</h4>
+      
+    </div>
+  </div>
+  <div class="column climate earth type">
+    <div class="content">
+    <img src="images1/ipex.jpg" alt="Climate" style="width:100%">
+      <h4>IPEX</h4>
+      
+    </div>
+  </div>
+   <div class="column ins">
+    <div class="content">
+    <img src="images1/ase.jpg" alt="ins" style="width:100%">
+      <h4>ASE</h4>
+      
+    </div>
+  </div>
+   <div class="column ins">
+    <div class="content">
+    <img src="images1/opals.jpg" alt="ins" style="width:100%">
+      <h4>OPALS</h4>
+      
+    </div>
+  </div>
+   <div class="column type">
+    <div class="content">
+    <img src="images1/grace.jpg" alt="type" style="width:100%">
+      <h4>GRACE-FO</h4>
+      
+    </div>
+  </div>
+   <div class="column earth type">
+    <div class="content">
+    <img src="images1/isara.jpg" alt="type" style="width:100%">
+      <h4>ISARA</h4>
+      
+    </div>
+  </div>
+   <div class="column earth type">
+    <div class="content">
+    <img src="images1/cove2.jpg" alt="type" style="width:100%">
+      <h4>M-Cubed/COVE-2</h4>
+      
+    </div>
+  </div>
+   <div class="column earth type">
+    <div class="content">
+    <img src="images1/raincube.jpg" alt="Car" style="width:100%">
+      <h4>RainCube</h4>
+      
+    </div>
+  </div>
+   <div class="column earth type">
+    <div class="content">
+    <img src="images1/tempest-d.jpg" alt="type" style="width:100%">
+      <h4>TEMPEST-D</h4>
+     
+    </div>
+  </div>
+   
+<!-- END GRID -->
+</div>
+</section>
+<!-- END MAIN -->
+</div>
+</div>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active1");
+    current[0].className = current[0].className.replace(" active1", "");
+    this.className += " active1";
+  });
+}
+</script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
